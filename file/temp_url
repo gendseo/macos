@@ -1,0 +1,55 @@
+https://support.apple.com/en-us/HT201222
+https://support.apple.com/en_US/downloads/macos
+
+https://gfe.nvidia.com/mac-update
+https://www.keybr.com
+https://unsplash.com
+https://gems.ruby-china.com
+https://www.ctolib.com
+https://www.balena.io/etcher/
+http://www.quicklookplugins.com/
+https://zhutix.com/
+https://everymac.com/
+
+https://blog.seisman.info/macOS/
+https://www.jianshu.com/p/f8444a7658a3
+
+# 黑苹果网站
+https://blog.daliansky.net/
+http://www.misonsky.cn
+http://bbs.appleosx.cn
+
+# 黑苹果国外网站
+https://forum.amd-osx.com/
+https://www.insanelymac.com/
+https://www.tonymacx86.com/
+
+https://forum.amd-osx.com/viewforum.php?f=24
+https://sourceforge.net/projects/cloverefiboot/files/
+http://bbs.pcbeta.com/viewthread-1795904-1-1.html
+https://mtwstudio.gitbook.io/ryzentosh/
+https://forum.amd-osx.com/viewtopic.php?f=24&t=3538
+
+# 10.14.x
+# 安装指南
+https://gist.github.com/reteps/3792817622f7e1f909ad8e9e1fda879d
+https://forum.amd-osx.com/viewtopic.php?f=24&t=5902
+https://forum.amd-osx.com/viewtopic.php?f=24&t=6029
+
+# 驱动
+https://sourceforge.net/projects/voodoohda/
+
+# clover configurator
+https://mackie100projects.altervista.org/download-clover-configurator/
+
+HWMonitorSMC.app - 監控軟體
+
+# Adobe Photoshop CC Fix
+https://1drv.ms/u/s!As5DoS9XKCsCkDLASvzqbckOTLs3
+sudo rm -rf /Applications/Adobe\ Photoshop\ CC\ 2018/Adobe\ Photoshop\ CC\ 2018.app/Contents/Required/Plug-ins/Extensions/FastCore.plugin /Applications/Adobe\ Photoshop\ CC\ 2018/Adobe\ Photoshop\ CC\ 2018.app/Contents/Required/Plug-ins/Extensions/MMXCore.plugin
+
+# Adobe Illustrator CC Fix
+sudo rm -rf /Applications/Adobe\ Illustrator\ CC\ 2018/Adobe\ Illustrator.app/Contents/MacOS/MMXCore.plugin  /Applications/Adobe\ Illustrator\ CC\ 2018/Adobe\ Illustrator.app/Contents/Required/Plug-ins/Text\ Filters/TextModel.aip
+
+# Adobe AFTER EFFECTS CC 2018 [Crashfix]
+sudo rm -rf /Library/Application\ Support/Adobe/Plug-Ins/CC/File\ Formats/Camera\ Raw.plugin
