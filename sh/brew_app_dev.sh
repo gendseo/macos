@@ -40,12 +40,12 @@ brew install redis
 brew install nvm
 brew install go
 brew install scala sbt
-brew cask install anaconda
 brew install luajit
 brew install neofetch
 brew install tomcat
 brew install tree
 brew install highlight
+brew cask install anaconda
 
 # quicklook
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo provisionql quicklookapk quicklook-pat
