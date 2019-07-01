@@ -14,7 +14,7 @@ brew update
 brew cask
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-drivers
-brew tap homebrew/cask-versions
+# brew tap homebrew/cask-versions
 brew tap caskroom/versions
 brew tap caskroom/cask
 brew tap buo/cask-upgrade

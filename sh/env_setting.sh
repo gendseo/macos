@@ -42,12 +42,6 @@ echo '
 export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(jenv init -)"' >> ~/.bashrc
 
-# HOMEBREW_BOTTLE
-echo '
-# HOMEBREW_BOTTLE_DOMAIN
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles' >> ~/.bashrc
-
-
 # Logic code is placed on top of this
 # This is check ~/.zshrc and does it have 'source ~/.bashrc'
 if [[ ! `cat ~/.zshrc | grep 'source ~/.bashrc'` == 'source ~/.bashrc' ]]; then
