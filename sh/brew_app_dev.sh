@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # description: brew install dev app
 # author     : gendseo
-# create     : 28/06/2019
-# update     : 28/06/2019
+# create     : 02/07/2019
+# update     : 02/07/2019
 
 # tools
 xcode-select --install
@@ -43,10 +43,6 @@ brew install redis
 brew install nvm
 brew install go
 brew install scala sbt
-<<<<<<< HEAD
-=======
-proxychains4 brew cask install anaconda
->>>>>>> fix
 brew install luajit
 brew install tomcat
 brew install tree
