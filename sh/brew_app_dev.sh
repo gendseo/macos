@@ -47,6 +47,9 @@ brew install tree
 brew install highlight
 brew cask install anaconda
 
+# PostgreSQL
+brew cask install pgadmin4
+
 # quicklook
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo provisionql quicklookapk quicklook-pat
 
