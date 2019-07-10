@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 # description: brew install dev app
 # author     : gendseo
-# create     : 28/06/2019
-# update     : 28/06/2019
+# create     : 02/07/2019
+# update     : 02/07/2019
 
-# xcode tools
+# tools
 xcode-select --install
+brew install wget
+brew install neofetch
 
 # proxy
 brew cask install shadowsocksx-ng
@@ -14,11 +16,11 @@ brew cask install shadowsocksx-ng
 brew install proxychains-ng
 
 if [[ ! `cat /usr/local/etc/proxychains.conf | grep 'http 127.0.0.1 1087'` == 'http 127.0.0.1 1087' ]]; then
-  echo 'http 127.0.0.1 1087' >> ~/.zshrc
+  echo 'http 127.0.0.1 1087' >> /usr/local/etc/proxychains.conf
 fi
 
 if [[ ! `cat /usr/local/etc/proxychains.conf | grep 'socks5 127.0.0.1 1086'` == 'socks5 127.0.0.1 1086' ]]; then
-  echo 'socks5 127.0.0.1 1086' >> ~/.zshrc
+  echo 'socks5 127.0.0.1 1086' >> /usr/local/etc/proxychains.conf
 fi
 
 # set git name and email
@@ -29,9 +31,10 @@ git config --global user.email "aubo@gendseo.top"
 brew cask install github
 
 # brew GUI
-brew cask install cakebrews
+brew cask install cakebrew
 
 # code language tools
+brew install gradle
 brew cask install iterm2
 brew cask install launchrocket
 brew install serve
@@ -41,7 +44,6 @@ brew install nvm
 brew install go
 brew install scala sbt
 brew install luajit
-brew install neofetch
 brew install tomcat
 brew install tree
 brew install highlight

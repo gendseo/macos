@@ -40,6 +40,9 @@ brew cask install qq
 # 微信
 brew cask install wechat
 
+# 企业微信
+brew cask install wechatwork
+
 # 电报
 brew cask install telegram-desktop
 
