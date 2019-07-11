@@ -7,6 +7,9 @@
 # 状态栏管理
 brew cask install bartender
 
+# WPS Office
+brew cask install wpsoffice
+
 # 远程控制
 brew cask install anydesk
 
