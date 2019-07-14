@@ -17,7 +17,6 @@ sh
 ├── gem_dev.sh
 ├── gem_setting.sh
 ├── get_WebDriver.sh
-├── install_adoptopenjdk8.sh
 ├── install_brew.sh
 ├── install_dropbox.sh
 ├── install_flutter_sdk.sh
@@ -27,7 +26,6 @@ sh
 ├── install_ohmyzsh.sh
 ├── install_oraclejdk8u212.sh
 ├── install_switchresx.sh
-├── install_wps.sh
 ├── macos_dev.sh
 ├── macos_setting.sh
 └── mount_ntfs.sh
