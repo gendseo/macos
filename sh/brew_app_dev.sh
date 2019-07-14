@@ -47,9 +47,19 @@ brew install luajit
 brew install tomcat
 brew install tree
 brew install highlight
+brew install jenv
 brew cask install anaconda
 
+## Programing Language
+# Java -- openJdk64
+openjdkVersion=`brew cask info adoptopenjdk | awk 'NR=="1"{print}' | awk '{print $2}'`
+openjdkVersion=${openjdkVersion#*,}
+brew cask install adoptopenjdk
+jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-${openjdkVersion}.jdk/Contents/Home/
+jenv global `jenv versions | grep "openjdk64-12"`
+
 # PostgreSQL
+brew cask install postgres
 brew cask install pgadmin4
 
 # quicklook
