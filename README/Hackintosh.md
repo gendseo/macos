@@ -24,6 +24,7 @@
 
 ## 工具
 
+- [Hackintool - 2.6.9](https://www.tonymacx86.com/threads/release-hackintool-v2-6-9.254559/)
 - [MaciASL - 1.5.5](https://github.com/acidanthera/MaciASL/releases)
 - [IORegistryExplorer - 3.0.2](https://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml)
 
